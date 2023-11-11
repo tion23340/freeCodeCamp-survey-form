@@ -1,0 +1,73 @@
+.main__container {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem;
+}
+.btn {
+    margin: 1rem;
+}
+:root {
+    --dark-color: hsl(239, 16%, 24%);
+    --lighter-dark: hsl(239, 16%, 37%);
+}
+
+body {
+    background-color: var(--lighter-dark);
+}
+#new-task-form {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 1rem;
+}
+#new-task-input {
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    text-align: center;
+}
+.trans {
+    transition: all 0.4s;
+    transform: scale(1.2);
+    background-color: var(--dark-color);
+}
+#new-task-submit:hover {
+    transition: all 1ms;
+    background-color: var(--dark-color);
+    transform: scale(1.25);
+}
+#new-task-submit {
+    border: none;
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 1rem;
+}
+.main__sec {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text:focus {
+    outline: none;
+}
+h1 {
+    align-items: center;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+.edit, .delete {
+    margin-left: 5px;
+}
